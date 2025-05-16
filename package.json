@@ -1,0 +1,28 @@
+{
+  "name": "criando-api-rest-com-node",
+  "version": "1.0.0",
+  "description": "Repositorio de estudos sobre Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx tsx watch src/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cleytonalbu/Criando-API-Rest-com-Node.js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cleytonalbu/Criando-API-Rest-com-Node.js/issues"
+  },
+  "homepage": "https://github.com/Cleytonalbu/Criando-API-Rest-com-Node.js#readme",
+  "dependencies": {
+    "fastify": "^5.3.3",
+    "typescript": "^5.8.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.18"
+  }
+}
