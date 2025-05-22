@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "knex": "node --import tsx ./node_modules/knex/bin/cli.js",
     "dev": "npx tsx watch src/server.ts"
   },
   "repository": {
@@ -19,12 +20,15 @@
   },
   "homepage": "https://github.com/Cleytonalbu/Criando-API-Rest-com-Node.js#readme",
   "dependencies": {
+    "dotenv": "^16.5.0",
     "fastify": "^5.3.3",
     "knex": "^3.1.0",
     "sqlite3": "^5.1.7",
-    "typescript": "^5.8.3"
+    "typescript": "^5.8.3",
+    "zod": "^3.25.20"
   },
   "devDependencies": {
-    "@types/node": "^22.15.18"
+    "@types/node": "^22.15.18",
+    "tsx": "^4.19.4"
   }
 }
